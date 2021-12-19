@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url("./back1.jpg");
+    
     background-size:cover;
     background-position: center center;
     min-height: 100vh;
@@ -22,7 +22,10 @@ h1
 {
     font-weight: normal;
     font-size: 4rem;
+   
     margin-top: 5rem;
+    text-shadow: 2px 2px 4px grey;
+    
 }
 .cc{
     display: flex;
@@ -61,61 +64,6 @@ h1
     margin: 0 2rem;
 
 }
-
-.btn1{
-    width: 300px;
-    height: 100px;
-    border: none;
-    color: white;
-    background-color: rgb(255,0,68);
-    border-radius: 4px;
-    
-    transition: ease-out 0.3s;
-    font-size: 2rem;
-    outline: none;
-}
-
-.btn1:hover{
-    box-shadow: inset 300px 0 0 0 #f9e506;
-    cursor: pointer;
-    color: #000;
-    cursor:pointer;
-}
-.btn2{
-    width: 300px;
-    height: 100px;
-    border: none;
-    
-    border-radius: 4px;
-    transition: ease-out 0.3s;
-    font-size: 2rem;
-    color: #000;
-    outline: none;
-    border: 3px solid #42fbf2;
-    position: relative;
-    z-index: 1;
-    
-}
-.btn2:hover{
-    color: #ffff;
-    cursor:pointer;
-}
-.btn2::before{
-    transition: 0.5s all ease;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: "";
-    background-color: #42fbf2;
-    
-}
-.btn2:hover::before{
-    transition: 0.5s all ease;
-    left: 0;
-    right: 0;
-    opacity: 1;
-    z-index: -1;
+.back{
+    padding: 100px;
 }
